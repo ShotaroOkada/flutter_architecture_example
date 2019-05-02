@@ -1,0 +1,1 @@
+// pageA画面のstatelesswidgetを宣言するよ

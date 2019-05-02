@@ -1,0 +1,1 @@
+// pageAで使用するstatefulwidgetを書くよ

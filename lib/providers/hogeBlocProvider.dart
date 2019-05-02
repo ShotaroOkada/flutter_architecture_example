@@ -1,0 +1,2 @@
+// hogeBlocを繋ぐためのInheritedWidgetを宣言するよ
+// ただ、inheritedWidgetは短期決戦の場では正直不要だと思っているよ
