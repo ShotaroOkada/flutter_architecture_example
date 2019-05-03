@@ -1,16 +1,34 @@
-# flutter_architecture_example
+# lib下の各フォルダについて
 
-A new Flutter project.
+## blocs
+- blocを置くフォルダ
+- フォルダの粒度はreact+reduxでいうstateと同様
 
-## Getting Started
+## events
+- blocで受け取るeventを置くフォルダ
+- blocで受け取るeventが複数ある場合に使用
 
-This project is a starting point for a Flutter application.
+## images
+- アプリで使用する画像を置くフォルダ
 
-A few resources to get you started if this is your first Flutter project:
+## mainWidgets
+- main.dartで使用するstatefulWidgetを置くフォルダ
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+## models
+- api通信で受け取るモデルを置くフォルダ
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## providers
+- blocを繋ぐinheritedWidgetを置くフォルダ(任意)
+
+## resouces
+- api通信に関する処理を置くフォルダ
+
+## screens
+- アプリで使用する各画面を置くフォルダ
+
+## main.dart
+以下を書くためのファイル
+- テーマカラー
+- 全画面共通部分のstatelessWidget
+- 画面遷移の処理
+
